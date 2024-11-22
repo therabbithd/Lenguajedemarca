@@ -1,3 +1,17 @@
 #esp{
-    
+    display: block;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Especial{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+.Normal{
+    font-family: 'Courier New', Courier, monospace;
+}
+.varioselementos{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    border: 1px;
 }
