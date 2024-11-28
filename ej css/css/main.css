@@ -15,3 +15,6 @@
     display: block;
     border: 1px solid green;
 }
+h3 + p {
+    background-color: pink;
+}
