@@ -1,0 +1,73 @@
+.prophile img{
+    align-self: center;
+    padding: 20px;
+    
+    
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    padding:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10%;;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titlecat{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+.linkedin a{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: aqua;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.instagram a{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.8;
+}
+.github a{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, bold;
+    font-style: bold;
+    opacity: 0.8;
+    color: black;
+    text-decoration: none;
+}
+#bot{
+  border-radius: 0px;
+}
+#bot:hover{
+    background-color: grey;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+
