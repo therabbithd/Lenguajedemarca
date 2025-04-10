@@ -1,11 +1,12 @@
 <h1 id="title">Click Me</h1>
 <button id="myButton">Click Me</button>
 <script>
-  const button = document.getElementById("myTitle");
+  const button = document.getElementById("myButton");
+  const h1 = document.getElementById("title");
   button.addEventListener("click", function () {
     button.textContent = "Clicked!";
+    h1.textContent = "Clicked!";
   });
-
 
   // TODO: Fix the error and add
   // the functionality to change the titel to "Clicked!"
