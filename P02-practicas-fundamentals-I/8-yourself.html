@@ -27,16 +27,45 @@
 
 <body>
 
-  <h1>First Javascript contact</h1>
-  <p>This is the initial text.</p>
+  <h1 id="title">First Javascript contact</h1>
+  <p id="text">This is the initial text.</p>
 
-  <button>Hello World</button>
-  <button>Goodbye World</button>
-  <button>Bold</button>
-  <button>Italic</button>
-  <button>Change Color</button>
+  <button id="hw">Hello World</button>
+  <button id="gw">Goodbye World</button>
+  <button id="b">Bold</button>
+  <button id="i">Italic</button>
+  <button id="c">Change Color</button>
 
   <script>
+      const bhw = document.getElementById('hw');
+      const bgw = document.getElementById('gw');
+      const bb = document.getElementById('b');
+      const bi = document.getElementById('i');
+      const bc = document.getElementById('c');
+      const text = document.getElementById('text');
+      const title = document.getElementById('title');
+      bhw.addEventListener("click",function(){
+        text.textContent="Hello World";
+      });
+      bgw.addEventListener("click",function(){
+        text.textContent="Goodbye World";
+      });
+      bb.addEventListener("click",function(){
+        text.style.fontWeight="bold"
+      });
+      bi.addEventListener("click",function(){
+        text.style.fontStyle="italic"
+      });
+      bc.addEventListener("click",function(){
+        if(text.style.color == "red"){
+          text.style.color="";
+        }
+        else{
+          text.style.color ="red";
+        }
+        
+      })
+
       // A button that, when clicked, changes the text of the paragraph <p> to "Hello World".
       // A button that, when clicked, changes the text of the paragraph < p > to "Goodbye World".
       // A button that, when clicked, change the text style to bold.
