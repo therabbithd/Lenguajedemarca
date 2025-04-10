@@ -1,12 +1,17 @@
 <button id="toggleButton">Toggle</button>
+<button id="show">Show</button>
 <div id="myDiv" style="display: block;">This is a hidden div</div>
 <script>
   const button = document.getElementById("toggleButton");
   const div = document.getElementById("myDiv");
+  const button2 = document.getElementById("show");
 
   button.addEventListener("click", function () {
       div.style.display = "none";
   });
+  button2.addEventListener("click",function(){
+      div.style.display = "block";
+  })
 
   // TODO: Create a second button that shows the div again when clicked. the style to apply is div.style.display = "block";
 
