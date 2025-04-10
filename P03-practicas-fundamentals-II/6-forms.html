@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form id="registroForm">
+    <label>Nombre:</label>
+    <input type="text" id="nombre">
+    <span id="errorNombre"></span>
+
+    <label>Email:</label>
+    <input type="email" id="email">
+    <span id="errorEmail"></span>
+
+    <label>Contraseña:</label>
+    <input type="password" id="password">
+    <span id="errorPassword"></span>
+
+    <label>Confirmar Contraseña:</label>
+    <input type="password" id="confirmPassword">
+    <span id="errorConfirmPassword"></span>
+
+    <button type="submit">Registrarse</button>
+    <p>Nombre</p>
+    <p>Email</p>
+    <p>Contraseña</p>
+    <p>Confirmar Contraseña:</p>
+  </form>
+
+  <script>
+    //TODO: When the button Registrarse is clicked, it should display all the input value in their respective <p> tag
+    // Add also a validation for the form, if the name is empty, show an error message in the <span> tag with id="errorNombre"
+    // If the email is empty, show an error message in the <span> tag with id="errorEmail"
+    // If the password is empty, show an error message in the <span> tag with id="errorPassword"
+    // If the password and confirm password are not the same, show an error message in the <span> tag with id="errorConfirmPassword"
+  </script>
+</body>
+
+</html>
